@@ -1,3 +1,4 @@
+
 # ebazger.github.io
 
 This repository hosts the source for **ebazger.github.io**, a simple personal website.
@@ -37,3 +38,4 @@ Contributions are welcome! To propose improvements:
 3. Open a pull request describing your changes.
 
 Please keep pull requests focused and include clear commit messages.
+
