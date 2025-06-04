@@ -1,39 +1,36 @@
+# Personal Website
 
-
-Personal Blog what
-What
-
-## License
-This project is licensed under the [MIT License](LICENSE).
-=======
-
-This repository hosts the source for **ebazger.github.io**, a simple personal website.
-The site is built with straightforward HTML and CSS and is meant to serve as a quick online presence.
+This repository hosts **ebazger.github.io**, a small static site built with HTML and CSS.
 
 ## Project Overview
 
-The website currently consists of a single page:
+The website currently includes:
 
-- **`index.html`** – The landing page that displays the site owner's name and provides icons linking to email and LinkedIn.
+- **`index.html`** – landing page with site navigation.
+- **`about.html`** – brief personal introduction.
+- **`projects.html`** – highlights of past work.
+- **`contact.html`** – ways to get in touch.
 
-Feel free to add more pages or styles as the project evolves.
+Feel free to expand or style these pages as the project evolves.
 
 ## Local Setup
 
-To preview the site locally:
+To view the site locally:
 
 1. Clone this repository.
-2. Serve the files with any static file server. For example, using Python:
+2. Serve the files with any static file server. For example:
    ```bash
    python3 -m http.server
    ```
-3. Open `http://localhost:8000` in your browser to view the site.
+3. Open `http://localhost:8000` in your browser.
 
 ## Deploying with GitHub Pages
 
-This project is designed to be deployed via [GitHub Pages](https://pages.github.com/).
-After pushing changes to the `main` branch, GitHub Pages will automatically build
-and serve the contents at `https://ebazger.github.io`.
+Push changes to the `main` branch and GitHub Pages will automatically publish them at [https://ebazger.github.io](https://ebazger.github.io).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 
 ## Contributing
 
@@ -44,4 +41,3 @@ Contributions are welcome! To propose improvements:
 3. Open a pull request describing your changes.
 
 Please keep pull requests focused and include clear commit messages.
-
