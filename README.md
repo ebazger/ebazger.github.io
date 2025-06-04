@@ -1,5 +1,11 @@
 
-# ebazger.github.io
+
+Personal Blog what
+What
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+=======
 
 This repository hosts the source for **ebazger.github.io**, a simple personal website.
 The site is built with straightforward HTML and CSS and is meant to serve as a quick online presence.
