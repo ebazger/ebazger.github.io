@@ -184,6 +184,61 @@ h3 {
     background: var(--accent-strong);
 }
 
+.button[target="_blank"]::after {
+    content: " ↗";
+    font-size: 0.9em;
+}
+
+.publication-list {
+    display: grid;
+    gap: 28px;
+    margin-top: 32px;
+}
+
+.publication-card {
+    display: grid;
+    gap: 24px;
+    padding: 32px;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: var(--shadow);
+    border: 1px solid rgba(222, 216, 206, 0.9);
+}
+
+.publication-card > div {
+    display: grid;
+    gap: 16px;
+}
+
+.publication-card h2 {
+    font-size: clamp(1.8rem, 2.2vw, 2.8rem);
+    margin: 0;
+}
+
+.publication-meta {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.96rem;
+    line-height: 1.7;
+}
+
+.tag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 14px;
+    border-radius: 999px;
+    color: var(--accent-strong);
+    background: rgba(15, 118, 110, 0.1);
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.publication-card a.button {
+    justify-self: start;
+}
+
 .button.secondary {
     color: var(--text);
     background: #fff;
