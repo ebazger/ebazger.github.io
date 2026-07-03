@@ -224,7 +224,7 @@ h3 {
 .split-section,
 .page-layout,
 .contact-layout {
-    padding: 88px 0;
+    padding: 64px 0;
 }
 
 .case-study p {
@@ -317,7 +317,7 @@ h3 {
 }
 
 .page-hero {
-    margin-bottom: 42px;
+    margin-bottom: 24px;
 }
 
 .content-stack,
@@ -325,9 +325,13 @@ h3 {
     max-width: 900px;
 }
 
+.toolkit-section {
+    margin-top: 10px;
+}
+
 .text-panel,
 .publication-card {
-    padding: clamp(24px, 4vw, 36px);
+    padding: clamp(20px, 3.2vw, 28px);
 }
 
 .text-panel h2,
@@ -355,10 +359,15 @@ h3 {
 
 .project-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+    align-items: stretch;
 }
 
 .project-card {
-    padding: clamp(24px, 4vw, 34px);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: clamp(20px, 3.2vw, 28px);
 }
 
 .project-card ul {
@@ -370,7 +379,7 @@ h3 {
 
 .tag {
     display: inline-flex;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
     border-radius: 999px;
     padding: 7px 12px;
     color: var(--accent-strong);
@@ -381,24 +390,31 @@ h3 {
 
 
 .case-study p {
-    margin: 12px 0 0;
+    margin: 10px 0 0;
 }
 
 .toolkit-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 18px;
-    margin-top: 20px;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.toolkit-grid > div {
+    padding: 12px 14px;
+    border: 1px solid rgba(222, 216, 206, 0.7);
+    border-radius: 8px;
+    background: rgba(247, 244, 239, 0.45);
 }
 
 .toolkit-grid h3 {
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 
 .toolkit-grid p {
     margin: 0;
     color: var(--muted);
-    line-height: 1.6;
+    line-height: 1.55;
 }
 
 .contact-layout {
